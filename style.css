@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+div,
+p {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    padding: 35px 143px 95px;
+    font-family: 'StratosSkyeng', sans-serif;
+    color: #fff;
+    background: linear-gradient(130deg, rgba(173, 97, 255, 1) 0%, rgba(134, 119, 255, 1) 45%, rgba(0, 193, 255, 1) 100%);
+}
+table {
+    border-collapse: collapse;
+    width: 100%
+}
+td, th {
+    border: 1px solid white;
+    padding: 20px;
+    font-size: 18px;
+}
+th {
+    background-color: rgb(39, 100, 150);
+    font-size: 30px;
+}
+h1 {
+    font-size: 64px;
+    text-align: center;
+    font-weight: 500;
+}
+h2 {
+    margin-bottom: 15px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+div {
+    margin-top: 26px;
+}
+li {
+    font-size: 24px;
+}
+.tips {
+    text-align: left;
+}
